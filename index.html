@@ -13,31 +13,6 @@
     <link rel="icon" type="image/png" href="images/da485147c032f88f75e283b80d652cb8207d603a.png">
 </head>
 <body>
-    <!-- Info bar to surface quick contact details -->
-    <div class="info-bar">
-        <div class="container info-bar__content">
-            
-            <div class="info-bar__item">
-                <i class="fas fa-phone"></i>
-                <a href="tel:3113634019">3113634019</a>
-            </div>
-            
-            
-            <div class="info-bar__item">
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:carniceria-jietka-wayuu@sitiosproductivos.local">carniceria-jietka-wayuu@sitiosproductivos.local</a>
-            </div>
-            
-            
-            
-            <div class="info-bar__item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Manaure, La Guajira</span>
-            </div>
-            
-        </div>
-    </div>
-
     <!-- Header/Navbar -->
     <header class="header">
         <nav class="navbar">
@@ -55,7 +30,7 @@
                         </div>
                     </a>
 
-                    <div class="nav-wrapper">
+                    <nav class="nav-wrapper" role="navigation" aria-label="Navegación principal">
                         <ul class="nav-links">
                             <li><a href="#inicio" class="nav-link" data-section="inicio">Inicio</a></li>
                             <li><a href="#nosotros" class="nav-link" data-section="nosotros">Nosotros</a></li>
@@ -73,9 +48,9 @@
                             <span>Contactar</span>
                         </a>
                         
-                    </div>
+                    </nav>
 
-                    <button class="mobile-toggle" type="button" aria-label="Menú" aria-expanded="false">
+                    <button class="mobile-toggle" type="button" aria-label="Menú de navegación" aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -92,13 +67,9 @@
             <div class="hero-overlay"></div>
             <div class="container hero-container">
                 <div class="hero-content">
-                    <span class="hero-badge">
-                        <i class="fas fa-leaf"></i>
-                        Crianza responsable con enfoque sostenible
-                    </span>
+                    <span class="hero-badge"><i class="fas fa-leaf"></i> Crianza responsable</span>
                     <h2 class="hero-title">CARNICERIA JIETKA WAYUU</h2>
                     <p class="hero-subtitle">Chivos y productos frescos, criados con responsabilidad y tradición wayuu.</p>
-                    
                     <div class="hero-actions">
                         <a href="#productos" class="btn btn-light">Ver Productos</a>
                         
@@ -110,71 +81,8 @@
                             WhatsApp
                         </a>
                         
-                        
                     </div>
                 </div>
-                
-                
-                
-                
-                <div class="hero-stats">
-                    
-                    <div class="hero-stat">
-                        <p class="hero-stat__value">12+</p>
-                        <p class="hero-stat__label">Años de experiencia</p>
-                    </div>
-                    
-                    <div class="hero-stat">
-                        <p class="hero-stat__value">2.4K</p>
-                        <p class="hero-stat__label">Chivos comercializados</p>
-                    </div>
-                    
-                    <div class="hero-stat">
-                        <p class="hero-stat__value">18</p>
-                        <p class="hero-stat__label">Aliados ganaderos</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        
-        
-        
-        
-        <section class="metrics">
-            <div class="container metrics-grid">
-                
-                <article class="metric-card">
-                    <div class="metric-icon">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <div>
-                        <h3>Calidad certificada</h3>
-                        <p>Cumplimos protocolos sanitarios internacionales</p>
-                    </div>
-                </article>
-                
-                <article class="metric-card">
-                    <div class="metric-icon">
-                        <i class="fas fa-tractor"></i>
-                    </div>
-                    <div>
-                        <h3>Operación integral</h3>
-                        <p>Manejo de crianza, alimentación y logística</p>
-                    </div>
-                </article>
-                
-                <article class="metric-card">
-                    <div class="metric-icon">
-                        <i class="fas fa-hand-holding-heart"></i>
-                    </div>
-                    <div>
-                        <h3>Bienestar animal</h3>
-                        <p>Modelos de crianza que priorizan el confort</p>
-                    </div>
-                </article>
-                
             </div>
         </section>
 
@@ -195,34 +103,40 @@
                     
                     <div class="about-content">
                         <p class="about-text">Francisco Díaz Rojas trabaja en la crianza y comercialización de chivos, ofreciendo productos frescos y de calidad. Su emprendimiento, Carnicería Jietka Wayuu, se destaca por su compromiso, experiencia y servicio responsable hacia la comunidad.</p>
-
-                        <div class="about-pillars">
-                            
-                            
-                            <div class="pillar">
-                                <h3>Trazabilidad total</h3>
-                                <p>Seguimiento digital de cada animal desde su nacimiento.</p>
-                            </div>
-                            
-                            <div class="pillar">
-                                <h3>Nutrición especializada</h3>
-                                <p>Dietas diseñadas por veterinarios aliados.</p>
-                            </div>
-                            
-                            <div class="pillar">
-                                <h3>Logística fría</h3>
-                                <p>Cadena de transporte con estándares premium.</p>
-                            </div>
-                            
-                        </div>
-
                         
+                        <div class="about-features">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Calidad Garantizada</h3>
+                                    <p>Animales sanos y bien alimentados</p>
+                                </div>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Confianza</h3>
+                                    <p>Experiencia y compromiso con nuestros clientes</p>
+                                </div>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Sostenibilidad</h3>
+                                    <p>Prácticas responsables y respetuosas</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        
 
         <!-- Products Section -->
         <section id="productos" class="products">
@@ -348,10 +262,6 @@
             </div>
         </section>
 
-        
-
-        
-
         <!-- Gallery Section -->
         <section id="galeria" class="gallery">
             <div class="container">
@@ -396,10 +306,6 @@
                 
             </div>
         </section>
-
-        
-
-        
 
         <!-- Contact Section -->
         <section id="contacto" class="contact">
@@ -462,24 +368,23 @@
                             
                         </div>
 
-                        <div class="social-links">
+                        <nav class="social-links" aria-label="Redes sociales">
                             
-                            <a href="https://www.facebook.com/profile.php?id=61583602026833" target="_blank" rel="noopener" class="social-btn facebook" aria-label="Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61583602026833" target="_blank" rel="noopener noreferrer" class="social-btn facebook" aria-label="Visítanos en Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             
                             
-                            <a href="https://www.instagram.com/carniceria_jietka_wayuu/" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Instagram">
+                            <a href="https://www.instagram.com/carniceria_jietka_wayuu/" target="_blank" rel="noopener noreferrer" class="social-btn instagram" aria-label="Síguenos en Instagram">
                                 <i class="fab fa-instagram"></i>
                             </a>
                             
                             
-                            <a href="https://www.tiktok.com/@carniceria_jietka_wayuu" target="_blank" rel="noopener" class="social-btn tiktok" aria-label="TikTok">
+                            <a href="https://www.tiktok.com/@carniceria_jietka_wayuu" target="_blank" rel="noopener noreferrer" class="social-btn tiktok" aria-label="Síguenos en TikTok">
                                 <i class="fab fa-tiktok"></i>
                             </a>
                             
-                            
-                        </div>
+                        </nav>
                     </div>
 
                     
@@ -496,83 +401,75 @@
                             <i class="fab fa-whatsapp"></i>
                             Enviar mensaje
                         </a>
-                        
                     </div>
                     
                 </div>
             </div>
-            
-            <div class="map-card">
-                <iframe
-                    title="Mapa de CARNICERIA JIETKA WAYUU"
-                    loading="lazy"
-                    allowfullscreen
-                    referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps?q=Manaure%2C%20La%20Guajira&output=embed"></iframe>
-                <div class="map-footer">
-                    <div>
-                        <strong>¿Cómo llegar?</strong><br>
-                        Manaure, La Guajira
+        </section>
+        
+        <section class="map-section">
+            <div class="container">
+                <div class="map-card">
+                    <iframe
+                        title="Mapa de CARNICERIA JIETKA WAYUU"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps?q=Manaure%2C%20La%20Guajira&output=embed"></iframe>
+                    <div class="map-footer">
+                        <div>
+                            <strong>¿Cómo llegar?</strong><br>
+                            Manaure, La Guajira
+                        </div>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Manaure%2C%20La%20Guajira" target="_blank" rel="noopener">
+                            Abrir en Google Maps →
+                        </a>
                     </div>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Manaure%2C%20La%20Guajira" target="_blank" rel="noopener">
-                        Abrir en Google Maps →
-                    </a>
                 </div>
             </div>
-            
         </section>
+        
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>CARNICERIA JIETKA WAYUU</h3>
-                    <p>Chivos y productos frescos, criados con responsabilidad y tradición wayuu.</p>
-                </div>
-                
-                
-                <div class="footer-supporters">
-                    <p class="footer-supporters__label">Con el respaldo de</p>
-                    <div class="footer-supporters__logos">
+            
+            
+            <div class="footer-supporters">
+                <p class="footer-supporters__label">Con el respaldo de</p>
+                <div class="footer-supporters__logos">
+                    
+                    <div class="footer-supporters__item">
                         
-                        <div class="footer-supporters__item">
-                            
-                            <img src="https://drive.google.com/thumbnail?id=1Rgpfd7yZcUM4meVBcvsEax6rfGIF60Qw&sz=w420" alt="Ministerio de Minas y Energía" loading="lazy" decoding="async">
-                            
-                        </div>
-                        
-                        <div class="footer-supporters__item">
-                            
-                            <img src="https://drive.google.com/thumbnail?id=1ecf6tYHrSmN_BOt2RlfyKJKa7OfNXXo0&sz=w420" alt="Universidad de La Guajira" loading="lazy" decoding="async">
-                            
-                        </div>
-                        
-                        <div class="footer-supporters__item">
-                            
-                            <img src="https://drive.google.com/thumbnail?id=11mfDehXVHWAY_fU5RkoKrzqz2MWNjAYF&sz=w420" alt="Proyecto Reconversión Laboral" loading="lazy" decoding="async">
-                            
-                        </div>
+                        <img src="https://drive.google.com/thumbnail?id=1Rgpfd7yZcUM4meVBcvsEax6rfGIF60Qw&sz=w420" alt="Ministerio de Minas y Energía" loading="lazy" decoding="async">
                         
                     </div>
-                </div>
-                
-                <div class="footer-cta">
-                    <div>
-                        <p>¿Listo para agendar una visita técnica?</p>
+                    
+                    <div class="footer-supporters__item">
                         
-                        <a href="https://wa.me/3113634019" class="btn btn-whatsapp" target="_blank" rel="noopener">
-                            Coordinar visita
-                        </a>
+                        <img src="https://drive.google.com/thumbnail?id=1ecf6tYHrSmN_BOt2RlfyKJKa7OfNXXo0&sz=w420" alt="Universidad de La Guajira" loading="lazy" decoding="async">
+                        
+                    </div>
+                    
+                    <div class="footer-supporters__item">
+                        
+                        <img src="https://drive.google.com/thumbnail?id=11mfDehXVHWAY_fU5RkoKrzqz2MWNjAYF&sz=w420" alt="Proyecto Reconversión Laboral" loading="lazy" decoding="async">
                         
                     </div>
                     
                 </div>
-                <div class="footer-copy">
-                    <p>&copy; 2025 CARNICERIA JIETKA WAYUU. Todos los derechos reservados.</p>
-                    <p class="footer-tagline">Hecho con <i class="fas fa-heart"></i> en Manaure, La Guajira</p>
+            </div>
+            
+            <div class="footer-main">
+                <div class="footer-info">
+                    <h3>CARNICERIA JIETKA WAYUU</h3>
+                    <p>Chivos y productos frescos, criados con responsabilidad y tradición wayuu.</p>
                 </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 CARNICERIA JIETKA WAYUU. Todos los derechos reservados.</p>
+                <p class="footer-tagline">Hecho con <i class="fas fa-heart"></i> en Manaure, La Guajira</p>
             </div>
         </div>
     </footer>
@@ -583,7 +480,8 @@
        class="whatsapp-float" 
        target="_blank" 
        rel="noopener"
-       aria-label="Contactar por WhatsApp">
+       aria-label="Contactar por WhatsApp"
+       title="Contactar por WhatsApp">
         <svg width="32" height="32" fill="white" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
         </svg>
